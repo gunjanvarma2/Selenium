@@ -28,6 +28,7 @@ public class extentReportTestNG {
 		//String projectPath = System.getProperty("user.dir");
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Gunjan.Verma\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver();
+		System.out.println("Driver Initiated");
 	}
 	@BeforeSuite
 	public void setUP() {
